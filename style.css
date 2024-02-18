@@ -1,0 +1,42 @@
+body{
+    background-color: rgb(211, 211, 211);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header{
+
+}
+
+.nome{
+    text-align: center;
+    display: flex;
+    position: absolute;
+    top: 120px;
+    text-decoration: underline;
+    left: 530px;
+    font-style: italic;
+    font-size: 60px;
+}
+
+.sub-titulo, .descricao{
+    font-style: italic;
+    font-size: 30px;
+    margin-top: 20px;
+    display: flex;
+    position: relative;
+    top: 150px;
+}
+
+.rodape{
+    margin-top: 50px;
+    width: 80%;
+    display: flex;
+    justify-content: end; 
+    text-align: end;
+    padding-left: -30px;
+    position: relative;
+    top: 230px;
+    left: 120px;
+}
